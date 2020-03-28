@@ -1,0 +1,14 @@
+--cpu Cortex-M4.fp
+".\out\can.o"
+".\out\display.o"
+".\out\function.o"
+".\out\main.o"
+".\out\scroll_h.o"
+".\out\scroll_v.o"
+".\out\sysclock.o"
+".\out\startup_rvmdk.o"
+"..\THU VIEN TIVAWARE\TivaWare_C_Series-2.1.4.178\driverlib\rvmdk\driverlib.lib"
+--strict --scatter ".\out\SHC211.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\SHC211.map" -o .\out\SHC211.axf
